@@ -9,52 +9,96 @@
 </head>
 <body>
 
-<header>
-  <div class="container">
-    <!-- <img src="icon.png" alt="Calarm App Icon" class="app-icon"> -->
-    <h1>Calarm</h1>
-    <p class="tagline">Verpasse keinen Termin mehr.</p>
-  </div>
-</header>
+<!-- Animated background -->
+<div class="bg-grid"></div>
+<div class="bg-glow bg-glow-1"></div>
+<div class="bg-glow bg-glow-2"></div>
 
-<section class="hero">
-  <div class="container">
-    <p>Verbindet sich mit deinem Google Kalender und weckt dich mit einem lauten Alarm vor jedem Termin – auch bei Lautlos und Nicht stören.</p>
-    <!-- App Store Badge (aktivieren sobald live) -->
-    <!--
-    <a href="https://apps.apple.com/app/calarm/idXXXXXXXXX" class="app-store-badge">
-      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
-    </a>
-    -->
-  </div>
-</section>
+<main>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">iOS App</div>
+      <h1>
+        <span class="hero-line">Verpasse keinen</span>
+        <span class="hero-line hero-accent">Termin mehr.</span>
+      </h1>
+      <p class="hero-desc">Calarm verbindet sich mit deinem Google Kalender und weckt dich mit einem lauten Alarm – auch bei Lautlos und Nicht stören.</p>
+      <!--
+      <a href="https://apps.apple.com/app/calarm/idXXXXXXXXX" class="btn-appstore">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        App Store
+      </a>
+      -->
+    </div>
+  </section>
 
-<div class="divider"></div>
+  <!-- Features -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card" data-animate>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></svg>
+          </div>
+          <h3>Google Kalender</h3>
+          <p>Alle Kalender, alle Termine. Automatisch synchronisiert im Hintergrund.</p>
+        </div>
+        <div class="feature-card" data-animate>
+          <div class="feature-icon feature-icon--alarm">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/><path d="M2 2l2 2M22 2l-2 2"/></svg>
+          </div>
+          <h3>Lauter Alarm</h3>
+          <p>Durchbricht Lautlos und Nicht stören. Fullscreen auf dem Lock Screen.</p>
+        </div>
+        <div class="feature-card" data-animate>
+          <div class="feature-icon feature-icon--time">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Vorlaufzeit</h3>
+          <p>Frei wählbar, wie viele Minuten vorher der Alarm kommt.</p>
+        </div>
+        <div class="feature-card" data-animate>
+          <div class="feature-icon feature-icon--control">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Volle Kontrolle</h3>
+          <p>Kalender oder einzelne Termine ausschließen. Globaler Pause-Modus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="features">
-  <div class="container">
-    <div class="feature">
-      <span class="icon">📅</span>
-      <h3>Google Kalender</h3>
-      <p>Alle Kalender, alle Termine. Automatisch synchronisiert.</p>
+  <!-- How it works -->
+  <section class="steps">
+    <div class="container">
+      <h2 class="section-title" data-animate>So funktioniert's</h2>
+      <div class="steps-list">
+        <div class="step" data-animate>
+          <div class="step-num">1</div>
+          <div class="step-text">
+            <h3>Mit Google anmelden</h3>
+            <p>Ein Tap – und Calarm hat Zugriff auf deine Kalender. Read-only, sicher.</p>
+          </div>
+        </div>
+        <div class="step" data-animate>
+          <div class="step-num">2</div>
+          <div class="step-text">
+            <h3>Vorlaufzeit einstellen</h3>
+            <p>5, 10, 15 oder 30 Minuten – oder beliebig. Für alle Termine gleich.</p>
+          </div>
+        </div>
+        <div class="step" data-animate>
+          <div class="step-num">3</div>
+          <div class="step-text">
+            <h3>Nie wieder verschlafen</h3>
+            <p>Calarm weckt dich zuverlässig – auch wenn dein iPhone auf lautlos steht.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="feature">
-      <span class="icon">🔔</span>
-      <h3>Lauter Alarm</h3>
-      <p>Durchbricht Lautlos und Nicht stören. Fullscreen auf dem Lock Screen.</p>
-    </div>
-    <div class="feature">
-      <span class="icon">⏱️</span>
-      <h3>Vorlaufzeit</h3>
-      <p>Frei wählbar, wie viele Minuten vorher der Alarm kommt.</p>
-    </div>
-    <div class="feature">
-      <span class="icon">🎛️</span>
-      <h3>Volle Kontrolle</h3>
-      <p>Kalender oder einzelne Termine ausschließen. Globaler Pause-Modus.</p>
-    </div>
-  </div>
-</section>
+  </section>
+</main>
 
 <footer>
   <div class="container">
@@ -67,6 +111,29 @@
     <p class="copyright">&copy; 2026 Noah Blaschek</p>
   </div>
 </footer>
+
+<script>
+// Scroll-triggered animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
+
+// Parallax glow on mouse move
+document.addEventListener('mousemove', (e) => {
+  const x = e.clientX / window.innerWidth;
+  const y = e.clientY / window.innerHeight;
+  document.querySelector('.bg-glow-1').style.transform =
+    `translate(${x * 40 - 20}px, ${y * 40 - 20}px)`;
+  document.querySelector('.bg-glow-2').style.transform =
+    `translate(${x * -30 + 15}px, ${y * -30 + 15}px)`;
+});
+</script>
 
 </body>
 </html>
