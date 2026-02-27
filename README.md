@@ -2,7 +2,7 @@
 
 GitHub Pages Website für die Terminder iOS-App.
 
-**Live:** https://noah-bl.github.io/terminder/
+**Live:** https://terminder.blaschekmail.de/
 
 ## Seiten
 
@@ -32,4 +32,4 @@ GitHub Pages deployt automatisch vom `main`-Branch. Die Änderungen sind nach ca
 - **Repo:** https://github.com/noah-bl/terminder
 - **Branch:** `main`
 - **Deploy:** GitHub Pages (automatisch)
-- **Domain:** `noah-bl.github.io/terminder`
+- **Domain:** `terminder.blaschekmail.de`
