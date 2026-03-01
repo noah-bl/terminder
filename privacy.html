@@ -12,7 +12,7 @@
   <a href="index.html" class="back-link">&larr; Zurück zu Terminder</a>
 
   <h1>Datenschutzerklärung</h1>
-  <p><strong>Stand: Februar 2026</strong></p>
+  <p><strong>Stand: März 2026</strong></p>
 
   <h2>1. Verantwortlicher</h2>
   <p>
@@ -21,42 +21,64 @@
     support@terminder.blaschekmail.de
   </p>
 
-  <h2>2. Welche Daten verarbeitet Terminder?</h2>
-  <p>Terminder greift ausschließlich lesend auf deinen Google Kalender zu. Folgende Daten werden verarbeitet:</p>
+  <h2>2. Datenerhebung</h2>
+  <p>Terminder greift ausschließlich <strong>lesend</strong> auf deinen Google Kalender zu. Folgende Daten werden erhoben:</p>
   <ul>
-    <li><strong>Google OAuth-Token:</strong> Wird lokal auf deinem Gerät gespeichert (iOS Keychain), um den Zugriff auf die Google Calendar API zu ermöglichen.</li>
-    <li><strong>Google User-ID:</strong> Wird im Rahmen von Google Sign-In erhoben, um dein Konto zu identifizieren. Verbleibt auf deinem Gerät.</li>
-    <li><strong>IP-Adresse:</strong> Wird von Google Sign-In temporär zur Betrugsprävention erfasst. Terminder selbst speichert keine IP-Adressen.</li>
-    <li><strong>Kalender- und Termindaten:</strong> Werden von der Google Calendar API abgerufen und lokal auf deinem Gerät gespeichert, um Alarme planen zu können.</li>
-    <li><strong>Einstellungen:</strong> Deine Alarm-Einstellungen (Vorlaufzeit, ausgeschlossene Kalender/Termine, Pause-Modus) werden lokal auf deinem Gerät gespeichert.</li>
+    <li><strong>Google OAuth-Token:</strong> Wird im Rahmen von Google Sign-In abgerufen, um den Zugriff auf die Google Calendar API zu autorisieren.</li>
+    <li><strong>Google User-ID:</strong> Wird im Rahmen von Google Sign-In erhoben, um dein Konto zu identifizieren.</li>
+    <li><strong>IP-Adresse:</strong> Wird von Google Sign-In temporär zur Betrugsprävention erfasst. Terminder selbst erhebt oder speichert keine IP-Adressen.</li>
+    <li><strong>Kalender- und Termindaten:</strong> Werden von der Google Calendar API abgerufen, einschließlich Kalendernamen, Terminbezeichnungen, Datum, Uhrzeit und Ort.</li>
+    <li><strong>Benutzereinstellungen:</strong> Deine Alarm-Einstellungen wie Vorlaufzeit, ausgeschlossene Kalender, ausgeschlossene Termine und Pause-Modus-Konfiguration.</li>
+  </ul>
+  <p>Terminder erhebt <strong>keine</strong> weiteren personenbezogenen Daten über die oben genannten hinaus. Es werden keine Analyse-, Werbe- oder Nutzungsdaten erfasst.</p>
+
+  <h2>3. Datenverwendung</h2>
+  <p>Terminder verwendet die erhobenen Google-Nutzerdaten ausschließlich für folgende Zwecke:</p>
+  <ul>
+    <li><strong>Google OAuth-Token:</strong> Wird ausschließlich zur Authentifizierung von API-Anfragen an die Google Calendar API in deinem Namen verwendet. Das Token wird an keinen anderen Dienst oder Server übermittelt.</li>
+    <li><strong>Google User-ID:</strong> Wird ausschließlich verwendet, um deine lokalen App-Daten deinem Google-Konto zuzuordnen, damit Einstellungen nach erneuter Anmeldung wiederhergestellt werden können.</li>
+    <li><strong>Kalender- und Termindaten:</strong> Werden ausschließlich verwendet, um deine bevorstehenden Kalendertermine zu lesen und lokale Geräte-Alarme basierend auf deinen konfigurierten Vorlaufzeiten zu planen. Die Verarbeitung erfolgt vollständig auf deinem Gerät.</li>
+    <li><strong>Benutzereinstellungen:</strong> Werden ausschließlich zur Konfiguration des Alarm-Verhaltens gemäß deinen Präferenzen verwendet.</li>
+  </ul>
+  <p>Terminder verwendet Google-Nutzerdaten <strong>nicht</strong> für Werbung, Analysen, Marktforschung, KI-/ML-Modelltraining oder andere Zwecke außer der Bereitstellung der Kern-Alarmfunktionalität der App. Deine Daten werden niemals verkauft, weitergegeben oder an Dritte übertragen.</p>
+
+  <h2>4. Datenspeicherung</h2>
+  <p>Alle Daten werden <strong>ausschließlich auf deinem Gerät</strong> gespeichert:</p>
+  <ul>
+    <li><strong>OAuth-Token:</strong> Sicher im iOS Keychain auf deinem Gerät gespeichert.</li>
+    <li><strong>Kalenderdaten und Einstellungen:</strong> Im lokalen Speicher der App auf deinem Gerät gespeichert.</li>
+  </ul>
+  <p>Terminder betreibt <strong>keine</strong> eigenen Server oder Cloud-Infrastruktur. Es werden keine Nutzerdaten an einen von uns kontrollierten Server übermittelt oder dort gespeichert. Die einzige Netzwerkkommunikation findet direkt zwischen deinem Gerät und den Google-Servern statt (Google Calendar API und Google Sign-In).</p>
+
+  <h2>5. Weitergabe an Dritte</h2>
+  <p>Terminder gibt <strong>keine</strong> Nutzerdaten an Dritte weiter, verkauft oder überträgt sie. Die einzige externe Kommunikation erfolgt mit:</p>
+  <ul>
+    <li><strong>Google Calendar API:</strong> Zum Abrufen deiner Kalender und Termine (nur Lesezugriff). Es gelten die <a href="https://policies.google.com/privacy" target="_blank">Datenschutzbestimmungen von Google</a>.</li>
+    <li><strong>Google Sign-In:</strong> Zur Authentifizierung deines Google-Kontos. Es gelten die <a href="https://policies.google.com/privacy" target="_blank">Datenschutzbestimmungen von Google</a>.</li>
   </ul>
 
-  <h2>3. Wo werden die Daten gespeichert?</h2>
-  <p><strong>Ausschließlich auf deinem Gerät.</strong> Terminder betreibt keinen eigenen Server. Es werden keine Daten an uns oder Dritte übertragen – mit Ausnahme der direkten Kommunikation zwischen deinem Gerät und der Google Calendar API.</p>
-
-  <h2>4. Weitergabe an Dritte</h2>
-  <p>Terminder gibt keine Daten an Dritte weiter. Die einzige externe Kommunikation erfolgt mit:</p>
+  <h2>6. Datenaufbewahrung</h2>
+  <p>Deine Daten werden so lange auf deinem Gerät aufbewahrt, wie du die App nutzt:</p>
   <ul>
-    <li><strong>Google Calendar API:</strong> Zum Abrufen deiner Kalender und Termine (read-only). Es gelten die <a href="https://policies.google.com/privacy" target="_blank">Datenschutzbestimmungen von Google</a>.</li>
-    <li><strong>Google Sign-In:</strong> Zur Authentifizierung deines Google-Kontos.</li>
+    <li><strong>Abmeldung (Logout):</strong> Das OAuth-Token wird sofort von deinem Gerät entfernt. Deine Einstellungen (Vorlaufzeiten, Kalender-Ausschlüsse etc.) bleiben lokal erhalten, damit sie bei erneuter Anmeldung wiederhergestellt werden können.</li>
+    <li><strong>App-Löschung:</strong> Alle lokalen Daten – einschließlich Token, Kalenderdaten und Einstellungen – werden vollständig und dauerhaft von deinem Gerät entfernt.</li>
+    <li><strong>Zugriff widerrufen:</strong> Du kannst den Zugriff von Terminder auf dein Google-Konto jederzeit unter <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a> widerrufen.</li>
   </ul>
 
-  <h2>5. Wie lange werden die Daten gespeichert?</h2>
-  <p>Deine Daten werden so lange auf deinem Gerät gespeichert, wie du die App nutzt. Beim Abmelden (Logout) wird das OAuth-Token entfernt – deine Einstellungen (Vorlaufzeiten, Kalender-Ausschlüsse etc.) bleiben erhalten, damit sie bei erneuter Anmeldung wiederhergestellt werden. Beim Löschen der App werden alle lokalen Daten vollständig entfernt.</p>
-
-  <h2>6. Deine Rechte (DSGVO)</h2>
-  <p>Du hast das Recht auf:</p>
+  <h2>7. Deine Rechte (DSGVO)</h2>
+  <p>Gemäß der Datenschutz-Grundverordnung (DSGVO) hast du das Recht auf:</p>
   <ul>
-    <li>Auskunft über deine gespeicherten Daten</li>
-    <li>Löschung deiner Daten (durch App-Deinstallation werden alle Daten entfernt; durch Logout wird das OAuth-Token gelöscht)</li>
-    <li>Widerruf des Google-Zugriffs (über dein Google-Konto unter <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a>)</li>
+    <li><strong>Auskunft:</strong> Informationen über deine gespeicherten Daten anfordern (alle Daten befinden sich auf deinem Gerät und sind für dich zugänglich).</li>
+    <li><strong>Löschung:</strong> Deine Daten löschen durch Abmeldung (entfernt das OAuth-Token) oder Deinstallation der App (entfernt alle Daten).</li>
+    <li><strong>Widerruf:</strong> Den Zugriff von Terminder auf dein Google-Konto unter <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a> widerrufen.</li>
+    <li><strong>Beschwerde:</strong> Eine Beschwerde bei einer Aufsichtsbehörde einreichen, wenn du der Meinung bist, dass deine Daten unrechtmäßig verarbeitet werden.</li>
   </ul>
 
-  <h2>7. Analyse und Tracking</h2>
-  <p>Terminder verwendet <strong>keine</strong> Analyse-Tools, Tracker oder Werbung. Es werden keine Nutzungsdaten erfasst.</p>
+  <h2>8. Analyse und Tracking</h2>
+  <p>Terminder verwendet <strong>keine</strong> Analyse-Tools, Tracker, Cookies oder Werbe-SDKs. Es werden keine Nutzungs-, Verhaltens- oder Gerätedaten erfasst oder übermittelt.</p>
 
-  <h2>8. Kontakt</h2>
-  <p>Bei Fragen zum Datenschutz erreichst du mich unter:<br>
+  <h2>9. Kontakt</h2>
+  <p>Bei Fragen oder Anliegen zum Datenschutz erreichst du mich unter:<br>
     support@terminder.blaschekmail.de
   </p>
 </div>

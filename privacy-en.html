@@ -12,7 +12,7 @@
   <a href="index.html" class="back-link">&larr; Back to Terminder</a>
 
   <h1>Privacy Policy</h1>
-  <p><strong>Last updated: February 2026</strong></p>
+  <p><strong>Last updated: March 2026</strong></p>
 
   <h2>1. Data Controller</h2>
   <p>
@@ -21,42 +21,64 @@
     support@terminder.blaschekmail.de
   </p>
 
-  <h2>2. What data does Terminder process?</h2>
-  <p>Terminder accesses your Google Calendar in read-only mode. The following data is processed:</p>
+  <h2>2. Data Collection</h2>
+  <p>Terminder accesses your Google Calendar in <strong>read-only</strong> mode. The app collects the following data:</p>
   <ul>
-    <li><strong>Google OAuth token:</strong> Stored locally on your device (iOS Keychain) to access the Google Calendar API.</li>
-    <li><strong>Google User ID:</strong> Collected during Google Sign-In to identify your account. Stored locally on your device only.</li>
-    <li><strong>IP address:</strong> Temporarily collected by Google Sign-In for fraud prevention. Terminder itself does not store IP addresses.</li>
-    <li><strong>Calendar and event data:</strong> Retrieved from the Google Calendar API and stored locally on your device to schedule alarms.</li>
-    <li><strong>Settings:</strong> Your alarm settings (lead time, excluded calendars/events, pause mode) are stored locally on your device.</li>
+    <li><strong>Google OAuth token:</strong> Obtained during Google Sign-In to authorize access to the Google Calendar API.</li>
+    <li><strong>Google User ID:</strong> Collected during Google Sign-In to identify your account.</li>
+    <li><strong>IP address:</strong> Temporarily collected by Google Sign-In for fraud prevention. Terminder itself does not collect or store IP addresses.</li>
+    <li><strong>Calendar and event data:</strong> Retrieved from the Google Calendar API, including calendar names, event titles, dates, times, and locations.</li>
+    <li><strong>User settings:</strong> Your alarm preferences such as lead time, excluded calendars, excluded events, and pause mode configuration.</li>
+  </ul>
+  <p>Terminder does <strong>not</strong> collect any additional personal data beyond what is listed above. No analytics, advertising identifiers, or usage data is collected.</p>
+
+  <h2>3. Data Usage</h2>
+  <p>Terminder uses the collected Google user data exclusively for the following purposes:</p>
+  <ul>
+    <li><strong>Google OAuth token:</strong> Used solely to authenticate API requests to the Google Calendar API on your behalf. The token is never sent to any other service or server.</li>
+    <li><strong>Google User ID:</strong> Used solely to associate your local app data with your Google account, enabling you to restore settings after signing back in.</li>
+    <li><strong>Calendar and event data:</strong> Used solely to read your upcoming calendar events and schedule local device alarms based on your configured lead times. Event data is processed entirely on your device.</li>
+    <li><strong>User settings:</strong> Used solely to configure alarm behavior according to your preferences.</li>
+  </ul>
+  <p>Terminder does <strong>not</strong> use Google user data for advertising, analytics, market research, AI/ML model training, or any purpose other than providing the app's core alarm functionality. Your data is never sold, shared with, or transferred to third parties.</p>
+
+  <h2>4. Data Storage</h2>
+  <p>All data is stored <strong>exclusively on your device</strong>:</p>
+  <ul>
+    <li><strong>OAuth token:</strong> Stored securely in the iOS Keychain on your device.</li>
+    <li><strong>Calendar data and settings:</strong> Stored in the app's local storage on your device.</li>
+  </ul>
+  <p>Terminder does <strong>not</strong> operate any servers or cloud infrastructure. No user data is transmitted to or stored on any server controlled by us. The only network communication occurs directly between your device and Google's servers (Google Calendar API and Google Sign-In).</p>
+
+  <h2>5. Third-Party Sharing</h2>
+  <p>Terminder does <strong>not</strong> share, sell, or transfer any user data to third parties. The only external communication is with:</p>
+  <ul>
+    <li><strong>Google Calendar API:</strong> To retrieve your calendars and events (read-only access). <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> applies to data processed by Google.</li>
+    <li><strong>Google Sign-In:</strong> To authenticate your Google account. <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> applies.</li>
   </ul>
 
-  <h2>3. Where is data stored?</h2>
-  <p><strong>Exclusively on your device.</strong> Terminder does not operate any servers. No data is transmitted to us or third parties — except for direct communication between your device and the Google Calendar API.</p>
-
-  <h2>4. Third-party sharing</h2>
-  <p>Terminder does not share any data with third parties. The only external communication is with:</p>
+  <h2>6. Data Retention</h2>
+  <p>Your data is retained on your device as long as you use the app:</p>
   <ul>
-    <li><strong>Google Calendar API:</strong> To retrieve your calendars and events (read-only). <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> applies.</li>
-    <li><strong>Google Sign-In:</strong> To authenticate your Google account.</li>
+    <li><strong>Sign out:</strong> The OAuth token is immediately removed from your device. Your settings (lead times, calendar exclusions, etc.) are preserved locally so they can be restored when you sign in again.</li>
+    <li><strong>App deletion:</strong> All local data — including tokens, calendar data, and settings — is completely and permanently removed from your device.</li>
+    <li><strong>Revoke access:</strong> You can revoke Terminder's access to your Google account at any time via <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a>.</li>
   </ul>
 
-  <h2>5. How long is data stored?</h2>
-  <p>Your data is stored on your device as long as you use the app. When you sign out, the OAuth token is removed – your settings (lead times, calendar exclusions, etc.) are preserved so they can be restored when you sign in again. When you delete the app, all local data is completely removed.</p>
-
-  <h2>6. Your rights (GDPR)</h2>
-  <p>You have the right to:</p>
+  <h2>7. Your Rights (GDPR)</h2>
+  <p>Under the General Data Protection Regulation (GDPR), you have the right to:</p>
   <ul>
-    <li>Access information about your stored data</li>
-    <li>Delete your data (uninstalling the app removes all data; signing out removes the OAuth token)</li>
-    <li>Revoke Google access (via your Google account at <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a>)</li>
+    <li><strong>Access:</strong> Request information about what data is stored (all data is on your device and accessible to you).</li>
+    <li><strong>Deletion:</strong> Delete your data by signing out (removes OAuth token) or uninstalling the app (removes all data).</li>
+    <li><strong>Revocation:</strong> Revoke Terminder's access to your Google account at <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a>.</li>
+    <li><strong>Complaint:</strong> Lodge a complaint with a supervisory authority if you believe your data is being processed unlawfully.</li>
   </ul>
 
-  <h2>7. Analytics and tracking</h2>
-  <p>Terminder does <strong>not</strong> use any analytics tools, trackers, or advertising. No usage data is collected.</p>
+  <h2>8. Analytics and Tracking</h2>
+  <p>Terminder does <strong>not</strong> use any analytics tools, trackers, cookies, or advertising SDKs. No usage data, behavioral data, or device information is collected or transmitted.</p>
 
-  <h2>8. Contact</h2>
-  <p>For privacy-related questions, contact me at:<br>
+  <h2>9. Contact</h2>
+  <p>For privacy-related questions or concerns, contact me at:<br>
     support@terminder.blaschekmail.de
   </p>
 </div>
